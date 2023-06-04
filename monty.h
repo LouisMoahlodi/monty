@@ -53,3 +53,4 @@ typedef struct bus_s
     int lifi;
 } bus_t;
 extern bus_t bus;
+#endif
