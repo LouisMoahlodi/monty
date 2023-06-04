@@ -53,4 +53,13 @@ typedef struct bus_s
     int lifi;
 } bus_t;
 extern bus_t bus;
+
+int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
+void free_stack(stack_t *head);
+
+
+
+
+
+
 #endif
