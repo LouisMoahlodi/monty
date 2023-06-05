@@ -56,7 +56,8 @@ typedef struct bus_s
 extern bus_t bus;
 
 int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
-void free_stack(stack_t *head);
+free_stack(stack_t *head);
+void f_push(stack_t *head, unsigned int counter);
 
 
 
