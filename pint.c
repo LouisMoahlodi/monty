@@ -6,10 +6,6 @@
  * 
  * Return: void
  */
-int free_stack(stack_t *head)
-{
-    return 0;
-}
 void f_pint(stack_t **head, unsigned int counter)
 {
     /* Check if the stack is empty*/
@@ -25,9 +21,4 @@ void f_pint(stack_t **head, unsigned int counter)
 
     /* Print the value of the top element*/
     printf("%d\n", (*head)->n);
-}
-
-int execute(char *content, stack_t **head, unsigned int counter, FILE *file)
-{
-    return 0;
 }

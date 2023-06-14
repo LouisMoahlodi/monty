@@ -8,10 +8,6 @@
  * 
  * Return: void
  */
-int free_stack(stack_t *head)
-{
-    return 0;
-}
 void f_pall(stack_t **head, unsigned int counter)
 {
     stack_t *h;
