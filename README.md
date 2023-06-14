@@ -106,12 +106,11 @@ L3: unknown instruction pcx
 ### Return value
 When there is no errors, `monty` returns `0`. Otherwise, returns `1`
 
-## Authors
+## Author
 <details>
-    <summary>Suara Ayomide</summary>
+    <summary>Louis Moahlodi</summary>
     <ul>
     <li><a href="https://www.github.com/LouisMoahlodi">Github</a></li>
     <li><a href="mailto:lebushomoahlodi@gmail.com">e-mail</a></li>
     </ul>
 </details>
-<|endoftext|>
