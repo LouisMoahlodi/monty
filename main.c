@@ -8,6 +8,10 @@ bus_t bus = {NULL, NULL, NULL, 0};
  * 
  * Return: 0 on success 
  */
+int free_stack(stack_t *head)
+{
+    return 0;
+}
 int main(int argc, char *argv[])
 {
     char *content;
