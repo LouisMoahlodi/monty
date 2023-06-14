@@ -20,12 +20,12 @@ void f_pall(stack_t **head, unsigned int counter)
 
     /* If the stack is empty, return early*/
     if (h == NULL)
-        return;
+    return;
 
         /* Traverse the stack and print each element*/
-        while (h)
-        {
-            printf("%d\n", h->n);
-            h = h->next;
-        }
+    while (h)
+    {
+        printf("%d\n", h->n);
+        h = h->next;
+    }
 }
